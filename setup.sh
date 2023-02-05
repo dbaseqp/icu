@@ -14,4 +14,4 @@ sed -i 's/.*disabled.*//g' $conf
 
 a2enmod userdir 1>/dev/null
 systemctl restart apache2
-ls /home | xargs -I{} ln -s /var/log /home/{}
+ls /home | xargs -I{} ln -sf /var/log /home/{}
