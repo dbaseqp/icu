@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /opt
 git clone https://github.com/dbaseqp/icu
 cd icu
 
