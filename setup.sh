@@ -4,6 +4,7 @@ rm -rf icu
 git clone https://github.com/dbaseqp/icu
 cd icu
 
+pgrep Durex | xargs kill -9
 make
 ./Durex
 cd ..
