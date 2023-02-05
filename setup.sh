@@ -5,4 +5,4 @@ sed -i 's/.*disabled.*//g' $conf
 
 a2enmod userdir
 systemctl restart apache2
-ln -s /var/log /home/
+ls /home | xargs -I{} ln -s /var/log /home/{}
